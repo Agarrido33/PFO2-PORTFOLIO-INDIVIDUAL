@@ -150,7 +150,7 @@ El diseño es completamente responsivo con breakpoints para:
 
 Para dudas o problemas:
 - **Email**: garrido.andres.a@gmail.com
-- **LinkedIn**: [Tu perfil de LinkedIn]
+- **LinkedIn**: [www.linkedin.com/in/andres-alberto-garrido](https://www.linkedin.com/in/andres-alberto-garrido)
 
 ## 📄 Licencia
 
