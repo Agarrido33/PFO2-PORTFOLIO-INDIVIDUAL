@@ -16,7 +16,6 @@ Este es un portfolio/landing page moderno y dinámico desarrollado como parte de
 ### 🎵 Audio y Multimedia
 - **Música de fondo** opcional con controles de volumen
 - **Controles de audio** flotantes en la esquina superior derecha
-- **Efectos de sonido** en interacciones (opcional)
 
 ### 🎯 Optimización para Conversiones
 - **Llamadas a la acción (CTAs)** estratégicamente ubicadas
@@ -52,35 +51,8 @@ CV_Andres Garrido/
 ├── images/
 │   └── foto-perfil.jpg # Foto de perfil
 ├── audio/
-│   └── background-music.mp3  # Música de fondo (agregar archivo)
+│   └── background-music.mp3  # Música de fondo
 └── README.md           # Este archivo
-```
-
-## 🚀 Instalación y Uso
-
-### 1. Clonar o Descargar
-```bash
-git clone [URL_DEL_REPOSITORIO]
-cd CV_Andres_Garrido
-```
-
-### 2. Agregar Música de Fondo (Opcional)
-- Coloca un archivo de música en formato MP3 o OGG en la carpeta `audio/`
-- Nombra el archivo como `background-music.mp3` o `background-music.ogg`
-- Si no agregas música, los controles de audio se ocultarán automáticamente
-
-### 3. Abrir en Navegador
-- Abre `index.html` en tu navegador web preferido
-- O usa un servidor local para mejor rendimiento:
-```bash
-# Con Python
-python -m http.server 8000
-
-# Con Node.js (si tienes http-server instalado)
-npx http-server
-
-# Con PHP
-php -S localhost:8000
 ```
 
 ## 🎨 Personalización
@@ -173,51 +145,6 @@ El diseño es completamente responsivo con breakpoints para:
 - **MP3** (recomendado)
 - **OGG** (alternativa)
 
-### Recomendaciones
-- **Duración**: 2-5 minutos (se repite en loop)
-- **Volumen**: Moderado, no intrusivo
-- **Estilo**: Música ambiental o instrumental
-- **Tamaño**: < 5MB para mejor rendimiento
-
-### Fuentes Gratuitas
-- [Freesound.org](https://freesound.org)
-- [Zapsplat](https://zapsplat.com)
-- [YouTube Audio Library](https://studio.youtube.com/channel/UC/music)
-
-## 🚀 Despliegue
-
-### GitHub Pages
-1. Sube el proyecto a GitHub
-2. Ve a Settings > Pages
-3. Selecciona la rama main
-4. Tu sitio estará disponible en `https://tuusuario.github.io/nombre-repo`
-
-### Netlify
-1. Arrastra la carpeta del proyecto a [Netlify](https://netlify.com)
-2. O conecta tu repositorio de GitHub
-3. El sitio se desplegará automáticamente
-
-### Vercel
-1. Conecta tu repositorio en [Vercel](https://vercel.com)
-2. Configura el build (no necesario para sitios estáticos)
-3. Despliega con un clic
-
-## 🐛 Solución de Problemas
-
-### Audio no reproduce
-- Verifica que el archivo esté en la carpeta `audio/`
-- Asegúrate de que el nombre del archivo coincida
-- Algunos navegadores bloquean autoplay - el usuario debe hacer clic
-
-### Animaciones no funcionan
-- Verifica que JavaScript esté habilitado
-- Revisa la consola del navegador por errores
-- Asegúrate de que los archivos CSS y JS se carguen correctamente
-
-### Problemas de responsive
-- Usa las herramientas de desarrollador del navegador
-- Verifica que el viewport meta tag esté presente
-- Revisa los media queries en el CSS
 
 ## 📞 Soporte
 
